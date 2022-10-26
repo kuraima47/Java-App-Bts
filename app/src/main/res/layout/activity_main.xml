@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:padding="10dp"
+    android:id="@+id/layout"
+    android:background="@drawable/login_background3"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Ma Classe Entremêlée"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:text="Classes :"
+         />
+
+    <Spinner
+        android:id="@+id/spinnerClasses"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:text="Nom :" />
+
+    <Spinner
+        android:id="@+id/spinnerEleves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Enter Password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2F4F4F"
+        android:text="Login"
+        android:onClick="Login"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>

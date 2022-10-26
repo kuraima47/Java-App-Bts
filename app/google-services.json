@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025009089599",
+    "project_id": "paulcornu-efa15",
+    "storage_bucket": "paulcornu-efa15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025009089599:android:3c10ec19332c4124808c8a",
+        "android_client_info": {
+          "package_name": "com.example.maclassesdufutur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025009089599-8iqfp6vd0fo118bp50e0n83onkf8kktp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBng0MexrV60jnyBfxQJrskgaxZzkSPcEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025009089599-8iqfp6vd0fo118bp50e0n83onkf8kktp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
